@@ -66,9 +66,7 @@ namespace WebApplication1.Controllers
         {
             if (pokemonCreate == null)
                 return BadRequest(ModelState);
-            var oldPokemon = _pokemonRepository.GetPokemons()
-                .Where(p => p.Name.Trim().ToUpper() == pokemonCreate.Name.TrimEnd().ToUpper())
-                .FirstOrDefault();
+            var oldPokemon = _pokemonRepository.GetPokemonTrimToUpper(pokemonCreate);
             if (oldPokemon != null)
             {
                 ModelState.AddModelError("", "Pokemon already exists");

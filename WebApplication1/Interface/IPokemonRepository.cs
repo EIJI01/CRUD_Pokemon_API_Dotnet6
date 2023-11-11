@@ -1,4 +1,5 @@
-﻿using WebApplication1.Models;
+﻿using WebApplication1.Dto;
+using WebApplication1.Models;
 namespace WebApplication1.Interface
 {
     public interface IPokemonRepository
@@ -6,6 +7,7 @@ namespace WebApplication1.Interface
         ICollection<Pokemon> GetPokemons();
         Pokemon GetPokemon(int id);
         Pokemon GetPokemon(string name);
+        Pokemon GetPokemonTrimToUpper(PokemonDto pokemonCreate);
         decimal GetPokemonRating(int pokeId);
         bool PokemonExists(int pokeId);
 

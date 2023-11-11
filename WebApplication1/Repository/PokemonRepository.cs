@@ -1,6 +1,7 @@
 ﻿using WebApplication1.Models;
 using WebApplication1.Data;
 using WebApplication1.Interface;
+using WebApplication1.Dto;
 
 namespace WebApplication1.Repository
 {
@@ -77,6 +78,12 @@ namespace WebApplication1.Repository
         {
             _context.Remove(pokemon);
             return Save();
+        }
+
+        public Pokemon GetPokemonTrimToUpper(PokemonDto pokemonCreate)
+        {
+            return GetPokemons().Where(p => p.Name.Trim().ToUpper() == pokemonCreate.Name.TrimEnd().ToUpper())
+                .FirstOrDefault();
         }
     }
 }

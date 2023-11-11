@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{AC0319F6-AB98-4954-A3D0-5E27E153BE67}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{AC0319F6-AB98-4954-A3D0-5E27E153BE67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProkemonReviewApp.Tests", "ProkemonReviewApp.Tests\ProkemonReviewApp.Tests.csproj", "{28A85421-D6F3-4677-B691-248627CC5418}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{AC0319F6-AB98-4954-A3D0-5E27E153BE67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC0319F6-AB98-4954-A3D0-5E27E153BE67}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC0319F6-AB98-4954-A3D0-5E27E153BE67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28A85421-D6F3-4677-B691-248627CC5418}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28A85421-D6F3-4677-B691-248627CC5418}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28A85421-D6F3-4677-B691-248627CC5418}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28A85421-D6F3-4677-B691-248627CC5418}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
