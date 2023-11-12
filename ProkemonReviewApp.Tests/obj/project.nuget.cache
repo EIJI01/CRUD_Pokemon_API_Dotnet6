@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "jqfigUq8yNsFtrbYxXdVZ9EvD1xKgmQ4W6rEXDBeW6U/qNxpHT9zX3xUgc4Ea5v/d3MSYHYrV466nYDAxQJbBw==",
+  "dgSpecHash": "+9wHScq0YeRmxcgBowXbqZZ9wvstxjtQ6bS40TFSgb6sCxBUL1YOLBnoE9ID29TnoAXp//vX40gZU03g/FVmjA==",
   "success": true,
   "projectFilePath": "C:\\Practice-programming\\back-end\\WebApplication\\ProkemonReviewApp.Tests\\ProkemonReviewApp.Tests.csproj",
   "expectedPackageFiles": [
@@ -20,6 +20,7 @@
     "C:\\Users\\chany\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.13\\microsoft.entityframeworkcore.7.0.13.nupkg.sha512",
     "C:\\Users\\chany\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.13\\microsoft.entityframeworkcore.abstractions.7.0.13.nupkg.sha512",
     "C:\\Users\\chany\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.13\\microsoft.entityframeworkcore.analyzers.7.0.13.nupkg.sha512",
+    "C:\\Users\\chany\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\7.0.13\\microsoft.entityframeworkcore.inmemory.7.0.13.nupkg.sha512",
     "C:\\Users\\chany\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\7.0.13\\microsoft.entityframeworkcore.relational.7.0.13.nupkg.sha512",
     "C:\\Users\\chany\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\7.0.13\\microsoft.entityframeworkcore.sqlserver.7.0.13.nupkg.sha512",
     "C:\\Users\\chany\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
