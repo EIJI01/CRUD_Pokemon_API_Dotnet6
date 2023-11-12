@@ -161,3 +161,4 @@ C:\Practice-programming\back-end\WebApplication\ProkemonReviewApp.Tests\bin\Debu
 C:\Practice-programming\back-end\WebApplication\ProkemonReviewApp.Tests\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Practice-programming\back-end\WebApplication\ProkemonReviewApp.Tests\bin\Debug\net6.0\WebApplication1.dll
 C:\Practice-programming\back-end\WebApplication\ProkemonReviewApp.Tests\bin\Debug\net6.0\WebApplication1.pdb
+C:\Practice-programming\back-end\WebApplication\ProkemonReviewApp.Tests\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll
